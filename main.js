@@ -16,7 +16,11 @@ var about = ["Grandma", "Grandpa", "Father", "Mother", "Uncle", "Aunt", "Me", "S
 var i = 0;
 
 function next() {
-	document.getElementById("abo").innerHTML = images[i];
+	document.getElementById("abo").innerHTML = about[i];
 	document.getElementById("my_family").src = images[i];
 	i++;
+
+		console.log (i);
+		console.log (images);
+		console.log (about);
 }
